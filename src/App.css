@@ -1,0 +1,75 @@
+/* font-family: 'Fredoka', sans-serif;
+font-family: 'Gideon Roman', cursive;
+font-family: 'Hubballi', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Smooch Sans', sans-serif; */
+
+body {
+  background-color:lightgrey;
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Home detail */
+
+.homePositionLists{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: normal;
+}
+
+.homeTitleBoxes{
+  font-family: 'Fredoka', sans-serif;
+  font-size:10px
+}
+
+/* Movies details */
+
+.movieDetailsBox {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 50px;
+}
+
+.MeetUpMoviesComponent{
+  margin-top: -50px;
+  margin-bottom: 150px;
+}
+
+/* Meet Up List */
+
+.meetupListContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: normal;
+  
+}
+
+#buttonMeetUp{
+  margin: 35px 50px 0px 50px;
+  
+}
+
+/* Profile view */
+
+.ProfileBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: normal;
+}
